@@ -1,0 +1,25 @@
+{
+    // More Info
+    // Filter (e.g. text, !exclude, \escape)
+    // Showing https://go.microsoft.com/fwlink/?linkid=830387 of undefined
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "task_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "task_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "task_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
